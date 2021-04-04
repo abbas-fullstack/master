@@ -10,4 +10,9 @@ public class MyController {
     public String  getMessage(){
         return "Hello Shamim";
     }
+    
+    @GetMapping("/greeting")
+    public String  getMessage(){
+        return "Hello Nasir";
+    }
 }
